@@ -11,9 +11,12 @@ A RESTful API for a blogging platform that allows users to create, read, update,
 - Delete blog posts
 - Modular folder structure
 
+## Purpose
+To provide a scalable backend architecture for managing blogs with secure user authentication.
+
 ## Installation
 
-## bash
+bash
 git clone https://github.com/Ferdicriuz/blog-api.git
 cd blog-api
 npm install
@@ -23,9 +26,7 @@ npm install
 - Node.js
 - Express.js
 - MongoDB
-
-RESTful API
+- RESTful API
 
 ## Author
-
 - Eneanya Ferdinand
