@@ -1,32 +1,29 @@
 # Blog API
 
 ## Description
-A RESTful API for a blogging platform that allows users to create, read, update, and delete blog posts. Designed with clean architecture and scalability in mind.
+A RESTful Blog API built with Node.js, Express, and MongoDB.
+It supports user authentication and protected routes using JWT.
 
-## Features
-- Create blog posts
-- Retrieve all posts
-- Retrieve single post by ID
-- Update blog posts
-- Delete blog posts
-- Modular folder structure
-
-## Purpose
-To provide a scalable backend architecture for managing blogs with secure user authentication.
+## Technologies Used
+- Node.js
+- Express
+- MongoDB
+- Mongoose
+- JWT
+- Bcrypt
 
 ## Installation
 
-bash
-git clone https://github.com/Ferdicriuz/blog-api.git
-cd blog-api
-npm install
+1. Clone repository
+2. Run `npm install`
+3. Create `.env` file
+4. Run `npm run dev`
 
-## Technologies Used
+## API Endpoints
 
-- Node.js
-- Express.js
-- MongoDB
-- RESTful API
+### Auth Routes
+- POST /api/auth/signup
+- POST /api/auth/login
+- GET /api/auth/protected (Protected Route)
 
-## Author
-- Eneanya Ferdinand
+More endpoints will be added as development continues.

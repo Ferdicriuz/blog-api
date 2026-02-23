@@ -4,7 +4,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-  "dev": "nodemon server.js"
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,7 @@
     "url": "https://github.com/Ferdicriuz/blog-api/issues"
   },
   "homepage": "https://github.com/Ferdicriuz/blog-api#readme",
-  "description": "",
+  "description": "A RESTful API for a blogging platform that allows users to create, read, update, and delete blog posts. Designed with clean architecture and scalability in mind.",
   "dependencies": {
     "bcrypt": "^6.0.0",
     "dotenv": "^17.3.1",
